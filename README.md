@@ -59,7 +59,7 @@ The code structure for the Task Management System designed using the MVC archite
 For a traditional J2EE application, use JDBC to connect to the database. Implement data access classes to perform CRUD operations on User and Task. These classes will use the database connection to execute SQL queries.
 
 - Example classes:
-  - `User.java`
+  - `user.java`
   - `Task.java`
   - `UserDao.java`
   - `TaskDao.java`
