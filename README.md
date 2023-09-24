@@ -12,7 +12,7 @@ The Task Management System is a software application designed to address specifi
 •	Users should be able to delete tasks.
 # 2.System Architecture
 Management System  designed using the Model-View-Controller (MVC) architecture in a Java Enterprise Edition (J2EE) application. Here's an overview of the system's architecture:
-•#Model (M): The Model represents the business logic and data of the application. In your case, it includes the User and Task entities.
+•Model (M): The Model represents the business logic and data of the application. In your case, it includes the User and Task entities.
 •	User Entity: This entity should store user-specific data, such as username, password (hashed and securely stored), and any user-related information. You may also include roles or permissions to manage user access levels.
 •	Task Entity: This entity  store task-related data, including title, description, due date, assignment to a user, and completion status. You may also include additional fields like task creation date, task ID.
 •	Data Access Object (DAO): Implement DAO classes to interact with the database. These classes are responsible for database operations, such as creating, updating, retrieving, and deleting user and task records.
@@ -23,7 +23,7 @@ Management System  designed using the Model-View-Controller (MVC) architecture i
 •	Servlets or Controllers: In a J2EE application, you can use servlets or controller classes MVC controllers to handle incoming HTTP requests. These controllers will validate user inputs, interact with the Model to perform CRUD operations on users and tasks, and then update the View to reflect the changes.
 •	Database: Use a relational database system MySQL to store user and task data. Create the scheama  and use 2 table users and tasks.
 •	Deployment: Deploy  J2EE application on a  application server  apache-tomcat-10.1.10  and configure it appropriately for production use.
-3.code structure
+# 3.code structure
 designed using the Model-View-Controller (MVC) architecture in a Java Enterprise Edition (J2EE) application. Here's an overview of the system's architecture
 •	Model Layer and MySQL Database
 For a traditional J2EE application,  use JDBC to connect to the database.Implement data access classes  to perform CRUD operations on User and Task  . These classes will use the database connection to execute SQL queries .
@@ -36,7 +36,8 @@ package com.Task.model
 5.UserDaoImpl.java
 6.TaskDaoImpl.java
 •	View Layer and JSPs
-JavaServer Pages (JSPs)  used to create the user interface for your Task Management System. JSPs are a technology that allows you to embed Java code within HTML pages, making it easier to generate dynamic web content. Here's how JSPs can be used to fulfill the user interface requirements for your system
+JavaServer Pages (JSPs)  used to create the user interface for your Task Management System. 
+JSPs are a technology that allows you to embed Java code within HTML pages, making it easier to generate dynamic web content. Here's how JSPs can be used to fulfill the user interface requirements for your system
 
 •	Using  jsp file in muster_Task
 1.login.jsp
@@ -56,7 +57,7 @@ package com.Task.controller
 2.TaskController.java
 3.DeleteTaskServlet.java
 4.addTask.java
-4.    Graphical User Interface (GUI)
+# 4.Graphical User Interface (GUI)
 Creating a user-friendly Graphical User Interface (GUI) its  essential for providing a positive user experience. Here's all screenshot  design of GUI.
 
 
