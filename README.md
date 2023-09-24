@@ -2,10 +2,10 @@
 
 Overview of the Requirements:
 The Task Management System is a software application designed to address specific user and task management needs. It encompasses several key requirements:
-# 1 User Management:
+ 1 User Management:
 •	Users should be able to register and log in to the system
 • Each user should have a unique username and password.
-# 2.Task Management:
+ 2.Task Management:
 •	Users should be able to create new tasks by providing a title, description, and due date.
 • Users should be able to update existing tasks, including changing the title,description,duedate,and assignment to another user.
 •	Users should be able to mark tasks as complete or incomplete.
