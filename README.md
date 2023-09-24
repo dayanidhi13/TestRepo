@@ -59,7 +59,7 @@ The code structure for the Task Management System designed using the MVC archite
 For a traditional J2EE application, use JDBC to connect to the database. Implement data access classes to perform CRUD operations on User and Task. These classes will use the database connection to execute SQL queries.
 
 - Example classes:
-  - `user.java`
+  - `User.java`
   - `Task.java`
   - `UserDao.java`
   - `TaskDao.java`
@@ -93,11 +93,3 @@ Controllers and servlets play a crucial role in handling user requests and inter
 ## Graphical User Interface (GUI)
 
 Creating a user-friendly Graphical User Interface (GUI) is essential for providing a positive user experience. Below are screenshots of the designed GUI:
-
-### Login Page
-
-![Login Page](login_page_screenshot.png)
-
-### Register Page
-
-![Register Page](register_page_screenshot.png)
