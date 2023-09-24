@@ -1,18 +1,18 @@
-1.	Introduction:
+ # 1.Introduction:
 
 Overview of the Requirements:
 The Task Management System is a software application designed to address specific user and task management needs. It encompasses several key requirements:
-1. User Management:
+# 1 User Management:
 •	Users should be able to register and log in to the system
-•            Each user should have a unique username and password.
-2. Task Management:
+• Each user should have a unique username and password.
+# 2.Task Management:
 •	Users should be able to create new tasks by providing a title, description, and due date.
-•             Users should be able to update existing tasks, including changing the title,            description,duedate,and assignment to another user.
+• Users should be able to update existing tasks, including changing the title,description,duedate,and assignment to another user.
 •	Users should be able to mark tasks as complete or incomplete.
 •	Users should be able to delete tasks.
-2.     System Architecture
+# 2.System Architecture
 Management System  designed using the Model-View-Controller (MVC) architecture in a Java Enterprise Edition (J2EE) application. Here's an overview of the system's architecture:
-•	Model (M): The Model represents the business logic and data of the application. In your case, it includes the User and Task entities.
+•Model (M): The Model represents the business logic and data of the application. In your case, it includes the User and Task entities.
 •	User Entity: This entity should store user-specific data, such as username, password (hashed and securely stored), and any user-related information. You may also include roles or permissions to manage user access levels.
 •	Task Entity: This entity  store task-related data, including title, description, due date, assignment to a user, and completion status. You may also include additional fields like task creation date, task ID.
 •	Data Access Object (DAO): Implement DAO classes to interact with the database. These classes are responsible for database operations, such as creating, updating, retrieving, and deleting user and task records.
