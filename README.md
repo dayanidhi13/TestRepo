@@ -12,7 +12,7 @@ The Task Management System is a software application designed to address specifi
 •	Users should be able to delete tasks.
 # 2.System Architecture
 Management System  designed using the Model-View-Controller (MVC) architecture in a Java Enterprise Edition (J2EE) application. Here's an overview of the system's architecture:
-•Model (M): The Model represents the business logic and data of the application. In your case, it includes the User and Task entities.
+•#Model (M): The Model represents the business logic and data of the application. In your case, it includes the User and Task entities.
 •	User Entity: This entity should store user-specific data, such as username, password (hashed and securely stored), and any user-related information. You may also include roles or permissions to manage user access levels.
 •	Task Entity: This entity  store task-related data, including title, description, due date, assignment to a user, and completion status. You may also include additional fields like task creation date, task ID.
 •	Data Access Object (DAO): Implement DAO classes to interact with the database. These classes are responsible for database operations, such as creating, updating, retrieving, and deleting user and task records.
