@@ -61,12 +61,13 @@ Creating a user-friendly Graphical User Interface (GUI) its  essential for provi
 
 
 
-                                                      1. Login page
+                                                     
 
  
 
 
-2.  Register page
+
+
 
               
 
@@ -74,6 +75,6 @@ Creating a user-friendly Graphical User Interface (GUI) its  essential for provi
 
 
 
-                                                                             3. dashboard
+                                                                            
  
 
